@@ -1,7 +1,6 @@
 def test_starting_values(favorites):
     assert favorites.retrieve() == 77
 
-
 def test_can_change_value(favorites):
     # Arrange
     new_number = 99
@@ -11,7 +10,6 @@ def test_can_change_value(favorites):
 
     # Assert
     assert favorites.retrieve() == new_number
-
 
 def test_can_add_people(favorites):
     # Arrange
