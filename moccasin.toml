@@ -13,6 +13,14 @@ chain_id = 31337
 default_account_name = "anvil1"
 unsafe_password_file = "~/.moccasin/unsafe-passwords/anvil1"
 
+[networks.sepolia]
+url = "$SEPOLIA_RPC_URL"
+chain_id = 11155111
+default_account_name = "default"
+save_to_db = false
+explorer_uri = "https://eth-sepolia.blockscout.com/"
+explorer_type = "blockscout"
+
 [networks.sepolia-zksync]
 url = "$SEPOLIA_ZKSYNC_RPC_URL"
 chain_id = 300

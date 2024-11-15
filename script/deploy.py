@@ -16,9 +16,6 @@ def deploy_favorites() -> VyperContract:
         print("Verifying contract on explorer...")
         result = active_network.moccasin_verify(favorites_contract)
         result.wait_for_verification()
-        print(
-            f"https://sepolia.explorer.zksync.io/address/{favorites_contract.address}"
-        )
     return favorites_contract
 
 
