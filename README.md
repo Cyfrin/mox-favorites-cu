@@ -26,8 +26,8 @@ This is part of the Cyfrin Updraft Vyper Course.
   - You'll know you've done it right if you can run `git --version` and see a version number.
 - [anvil](https://book.getfoundry.sh/anvil/)
   - You'll know you've done it right if you can run `anvil --version` and see an output like `anvil 0.2.0 (fdd321b 2024-10-15T00:21:13.119600000Z)`
-- [era-test-node](https://github.com/matter-labs/era-test-node)
-  - You'll know you've done it right if you can run `era_test_node --version` and see an output like `era_test_node 0.1.0-alpha.28`
+- [era-anvil-zksync-node](https://github.com/matter-labs/anvil-zksync)
+  - You'll know you've done it right if you can run `anvil-zksync --version` and see an output like `anvil-zksync 0.1.0-alpha.28`
 - [moccasin](https://github.com/Cyfrin/moccasin)
   - You'll know you've done it right if you can run `mox --version` and get an output like: `Moccasin CLI v0.3.0`
 
